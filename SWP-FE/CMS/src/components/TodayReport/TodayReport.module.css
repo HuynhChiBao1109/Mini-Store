@@ -1,0 +1,7 @@
+.TodayReport {
+	width: 100%;
+	display: flex;
+	margin-bottom: 40px;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+}

@@ -1,0 +1,105 @@
+.formWorksheet {
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.277);
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 10;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.formContainer {
+	position: relative;
+	width: 80%;
+	max-height: 90%;
+	background-color: white;
+}
+
+.formTitle {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 30px;
+}
+
+.formTitle img {
+	height: 60px;
+	width: 40px;
+}
+
+.formTitle h1 {
+	margin-left: 30px;
+}
+
+.buttonCancelWrap {
+	width: 95%;
+	display: flex;
+	justify-content: end;
+	margin-top: 20px;
+}
+
+.buttonCancel {
+	position: absolute;
+	bottom: 5%;
+	right: 5%;
+	width: 10%;
+}
+.tableForm {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 20px;
+}
+
+.tableContainer {
+	margin: 20px;
+	width: 80%;
+	max-width: 100%;
+}
+
+.worksheetTable {
+	border-collapse: collapse;
+	min-width: 100%;
+	border: 1px solid black;
+	margin-bottom: 100px;
+}
+
+.worksheetTable th {
+	border: 1px solid #ccc;
+	background-color: #f2f2f2;
+	font-weight: bold;
+}
+
+.worksheetTable td {
+	border: 1px solid #ccc;
+	text-align: center;
+}
+
+.cell {
+	height: 100px;
+}
+
+.calendar {
+	margin-bottom: 30px;
+}
+
+.calendar select {
+	font-size: 20px;
+	padding: 7px;
+}
+
+.worksheetEmployee {
+	height: 100;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.worksheetEmployee img {
+	height: 60%;
+}

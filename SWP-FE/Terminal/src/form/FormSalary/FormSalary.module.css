@@ -1,0 +1,75 @@
+.formSalary {
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.277);
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 10;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.formContainer {
+	position: relative;
+	width: 80%;
+	height: 90%;
+	background-color: white;
+}
+
+.formTitleSalary {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 20px;
+}
+.formTitleSalary img {
+	height: 50px;
+	width: 50px;
+}
+
+.formTitleSalary h1 {
+	margin-left: 30px;
+}
+.buttonCancelWrap {
+	display: flex;
+	justify-content: end;
+	margin-top: 40px;
+}
+.buttonCancel {
+	position: absolute;
+	bottom: 10%;
+	right: 5%;
+	width: 10%;
+}
+
+.tableWrapper {
+	margin: 0 auto;
+	max-width: 80%;
+}
+
+.salaryTable {
+	border-collapse: collapse;
+	width: 95%;
+	margin: 40px 0 40px 30px;
+}
+
+.salaryTable th,
+.salaryTable td {
+	border: 1px solid #ccc;
+	padding: 15px;
+	text-align: center;
+}
+
+.salaryTable th {
+	background-color: #4e4e4e;
+	color: white;
+}
+.formContainer h2 {
+	text-align: center;
+	font-size: 25px;
+	font-weight: 700;
+}
